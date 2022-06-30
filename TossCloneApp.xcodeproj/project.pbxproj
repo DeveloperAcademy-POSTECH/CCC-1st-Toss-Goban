@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6ECEB2C8D3AED450C07C2499 /* Pods_TossCloneApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE8A3587C2AD5A766AF0F02 /* Pods_TossCloneApp.framework */; };
 		91663671286DC358003CA7EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91663670286DC358003CA7EB /* AppDelegate.swift */; };
 		91663673286DC358003CA7EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91663672286DC358003CA7EB /* SceneDelegate.swift */; };
 		91663675286DC358003CA7EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91663674286DC358003CA7EB /* ViewController.swift */; };
 		91663678286DC358003CA7EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91663676286DC358003CA7EB /* Main.storyboard */; };
 		9166367A286DC35A003CA7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91663679286DC35A003CA7EB /* Assets.xcassets */; };
 		9166367D286DC35A003CA7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9166367B286DC35A003CA7EB /* LaunchScreen.storyboard */; };
+		91DBDF35286DD21F00040E6E /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 91DBDF34286DD21F00040E6E /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		114E5C49B67B766474C5E881 /* Pods-TossCloneApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TossCloneApp.debug.xcconfig"; path = "Target Support Files/Pods-TossCloneApp/Pods-TossCloneApp.debug.xcconfig"; sourceTree = "<group>"; };
+		1371E1D85954196D8C06D943 /* Pods-TossCloneApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TossCloneApp.release.xcconfig"; path = "Target Support Files/Pods-TossCloneApp/Pods-TossCloneApp.release.xcconfig"; sourceTree = "<group>"; };
+		4FE8A3587C2AD5A766AF0F02 /* Pods_TossCloneApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TossCloneApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9166366D286DC358003CA7EB /* TossCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TossCloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91663670286DC358003CA7EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91663672286DC358003CA7EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		91663679286DC35A003CA7EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9166367C286DC35A003CA7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9166367E286DC35A003CA7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91DBDF34286DD21F00040E6E /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ECEB2C8D3AED450C07C2499 /* Pods_TossCloneApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27B9EAFA96A505AF21C4F9E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				114E5C49B67B766474C5E881 /* Pods-TossCloneApp.debug.xcconfig */,
+				1371E1D85954196D8C06D943 /* Pods-TossCloneApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		37E94C5501DDDEBC4218CCAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FE8A3587C2AD5A766AF0F02 /* Pods_TossCloneApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		91663664286DC358003CA7EB = {
 			isa = PBXGroup;
 			children = (
 				9166366F286DC358003CA7EB /* TossCloneApp */,
 				9166366E286DC358003CA7EB /* Products */,
+				27B9EAFA96A505AF21C4F9E6 /* Pods */,
+				37E94C5501DDDEBC4218CCAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +89,7 @@
 				91663679286DC35A003CA7EB /* Assets.xcassets */,
 				9166367B286DC35A003CA7EB /* LaunchScreen.storyboard */,
 				9166367E286DC35A003CA7EB /* Info.plist */,
+				91DBDF34286DD21F00040E6E /* .swiftlint.yml */,
 			);
 			path = TossCloneApp;
 			sourceTree = "<group>";
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91663681286DC35A003CA7EB /* Build configuration list for PBXNativeTarget "TossCloneApp" */;
 			buildPhases = (
+				477B8A39323ADA46A1A5A655 /* [CP] Check Pods Manifest.lock */,
 				91663669286DC358003CA7EB /* Sources */,
 				9166366A286DC358003CA7EB /* Frameworks */,
 				9166366B286DC358003CA7EB /* Resources */,
+				91663684286DD19A003CA7EB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -125,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91DBDF35286DD21F00040E6E /* .swiftlint.yml in Resources */,
 				9166367D286DC35A003CA7EB /* LaunchScreen.storyboard in Resources */,
 				9166367A286DC35A003CA7EB /* Assets.xcassets in Resources */,
 				91663678286DC358003CA7EB /* Main.storyboard in Resources */,
@@ -132,6 +162,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		477B8A39323ADA46A1A5A655 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TossCloneApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91663684286DD19A003CA7EB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		91663669286DC358003CA7EB /* Sources */ = {
@@ -282,6 +354,7 @@
 		};
 		91663682286DC35A003CA7EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114E5C49B67B766474C5E881 /* Pods-TossCloneApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +383,7 @@
 		};
 		91663683286DC35A003CA7EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1371E1D85954196D8C06D943 /* Pods-TossCloneApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
