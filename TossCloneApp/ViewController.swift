@@ -8,28 +8,20 @@
 import UIKit
 import SwiftUI
 
-class ViewController: UIViewController {
-
+class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let testLabel = UILabel()
+        testLabel.text = "test 중"
+        testLabel.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(testLabel)
+        let safeArea = view.safeAreaLayoutGuide
+        testLabel.leadingAnchor.constraint(equalTo: safeArea.leadingAnchor, constant: 16).isActive = true
     }
 }
 
-struct ViewControllerRepresentable: UIViewControllerRepresentable {
-    typealias UIViewControllerType = ViewController
-
-    func makeUIViewController(context: Context) -> ViewController {
-        return ViewController()
-    }
-
-    func updateUIViewController(_ uiViewController: ViewController, context: Context) {
-    }
-}
-
-@available(iOS 13.0.0, *)
-struct ViewPreview: PreviewProvider {
+struct MainViewControllerPreView: PreviewProvider {
     static var previews: some View {
-        ViewControllerRepresentable()
+        MainViewController().toPreview()
     }
 }
