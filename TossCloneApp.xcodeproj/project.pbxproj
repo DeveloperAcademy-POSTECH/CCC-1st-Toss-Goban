@@ -15,6 +15,7 @@
 		9166367D286DC35A003CA7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9166367B286DC35A003CA7EB /* LaunchScreen.storyboard */; };
 		91CBF5B8286F066A00F22FD6 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CBF5B7286F066A00F22FD6 /* TabBarViewController.swift */; };
 		91CBF5BB286F1A7200F22FD6 /* SwiftUIPreivewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CBF5BA286F1A7200F22FD6 /* SwiftUIPreivewExtension.swift */; };
+		91CBF5BD286F25ED00F22FD6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CBF5BC286F25ED00F22FD6 /* HomeViewController.swift */; };
 		91DBDF35286DD21F00040E6E /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 91DBDF34286DD21F00040E6E /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		9166367E286DC35A003CA7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91CBF5B7286F066A00F22FD6 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		91CBF5BA286F1A7200F22FD6 /* SwiftUIPreivewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPreivewExtension.swift; sourceTree = "<group>"; };
+		91CBF5BC286F25ED00F22FD6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		91DBDF34286DD21F00040E6E /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 		91CBF5B6286F062F00F22FD6 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				91CBF5BC286F25ED00F22FD6 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				91663671286DC358003CA7EB /* AppDelegate.swift in Sources */,
 				91663673286DC358003CA7EB /* SceneDelegate.swift in Sources */,
 				91CBF5BB286F1A7200F22FD6 /* SwiftUIPreivewExtension.swift in Sources */,
+				91CBF5BD286F25ED00F22FD6 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
