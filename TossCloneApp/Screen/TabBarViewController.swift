@@ -47,7 +47,7 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewControllers = [homeViewController, benefitViewController, sendMondeyViewController, stockViewController, allViewController]
-        self.configureTabBar()
+        self.configureTabBarNavigation()
     }
 }
 
@@ -92,7 +92,7 @@ class TabBarViewController: UITabBarController {
 // }
 
 extension TabBarViewController {
-     func configureTabBar() {
+     func configureTabBarNavigation() {
          self.tabBar.tintColor = .label
          self.tabBar.layer.cornerRadius = 20
          self.tabBar.layer.masksToBounds = true
