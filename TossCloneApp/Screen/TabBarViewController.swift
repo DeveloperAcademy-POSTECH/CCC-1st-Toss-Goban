@@ -8,7 +8,7 @@
 import UIKit
 import SwiftUI
 
-class TabBarViewController: UITabBarController {
+final class TabBarViewController: UITabBarController {
     private var homeViewController: UINavigationController = {
         let viewController = HomeViewController()
         let tabBarItem = UITabBarItem(title: "홈", image: UIImage(systemName: "house.fill"), tag: 1)
@@ -47,7 +47,7 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewControllers = [homeViewController, benefitViewController, sendMondeyViewController, stockViewController, allViewController]
-        self.configureTabBarNavigation()
+        self.configureBottomTabBar()
     }
 }
 
@@ -92,7 +92,7 @@ class TabBarViewController: UITabBarController {
 // }
 
 extension TabBarViewController {
-     func configureTabBarNavigation() {
+     func configureBottomTabBar() {
          self.tabBar.tintColor = .label
          self.tabBar.layer.cornerRadius = 20
          self.tabBar.layer.masksToBounds = true
