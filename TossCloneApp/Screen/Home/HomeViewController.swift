@@ -29,19 +29,18 @@ final class HomeViewController: UIViewController {
     }()
     private lazy var bellBarItem: UIBarButtonItem = {
         let bellImage = UIImage(systemName: "bell.fill")
-        let bellBarItem = UIBarButtonItem(image: bellImage, style: .plain,
-                                          target: self, action: #selector(bellButtonPressed))
+        let bellBarItem = UIBarButtonItem(image: bellImage, style: .plain, target: self, action: #selector(bellButtonPressed))
         bellBarItem.tintColor = .systemGray
         return bellBarItem
     }()
     override func viewDidLoad() {
         super.viewDidLoad()
-        setNI()
+        setNavigationItem()
     }
 }
 
 extension HomeViewController {
-    private func setNI() {
+    private func setNavigationItem() {
         navigationItem.titleView = logoView
         navigationItem.rightBarButtonItems = [bellBarItem, chatBarItem]
     }
